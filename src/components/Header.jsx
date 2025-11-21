@@ -20,7 +20,9 @@ function Header() {
             aria-label="menu"
             sx={{ mr: 2 }}
           >
+            <Link to={'/'}>
             <img width={'30px'} src="https://i.pinimg.com/originals/8d/4c/3e/8d4c3e3cbb275adfba239326db22397b.png" alt="logo" />
+            </Link>
           </IconButton>
           <Typography variant="h6" component="div" sx={{ flexGrow: 1 }}>
             <Link to={'/'} className='text-light text-decoration-none'>APEX CRICKET ACADEMY</Link>

@@ -6,7 +6,7 @@ import History from './pages/History'
 import Pnf from './pages/Pnf'
 import Header from './components/Header'
 import Footer from './components/Footer'
-import UserInputs from './components/UserInputs'
+import Application from './pages/Application'
 
 
 function App() {
@@ -18,6 +18,7 @@ function App() {
         <Route path='/' element={<Home/>}/>
         <Route path='/form' element={<UserForm/>}/>
         <Route path='/history' element={<History/>}/>
+        <Route path='/application/:id/view' element={<Application/>}/>
         <Route path='/*' element={<Pnf/>}/>
       </Routes>
       <Footer/>
