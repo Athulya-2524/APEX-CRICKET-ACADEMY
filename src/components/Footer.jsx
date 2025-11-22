@@ -10,7 +10,7 @@ function Footer() {
     return (
        <section id='contact'>
         <div style={{height:'300px',backgroundColor:'blue',color:'white'}} className='d-flex justify-content-center align-items-center p-5 flex-column'>
-        <h5 className="fw-bolder"><MdAttachEmail />apexcricketacademy98@gmail.com</h5>
+        <h5 className="fw-bolder">apexcricketacademy98@gmail.com</h5>
         <h5 className="fw-bolder"><FaPhoneAlt />9746474890</h5>
         <h4>Connect With Us</h4>
         <div className="d-flex justify-content-center fs-4 my-3">

@@ -1,4 +1,4 @@
-import { Route,Routes } from 'react-router-dom'
+import {  Route,Routes } from 'react-router-dom'
 import './App.css'
 import Home from './pages/Home'
 import UserForm from './pages/UserForm'
@@ -13,6 +13,7 @@ function App() {
 
   return (
     <>
+  
     <Header/>
       <Routes>
         <Route path='/' element={<Home/>}/>
@@ -22,6 +23,7 @@ function App() {
         <Route path='/*' element={<Pnf/>}/>
       </Routes>
       <Footer/>
+     
     </>
   )
 }

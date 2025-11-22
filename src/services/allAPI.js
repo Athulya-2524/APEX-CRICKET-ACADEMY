@@ -13,3 +13,15 @@ export const getApplicationAPI = async (id)=>{
 export const updateApplicationAPI = async (id,application)=>{
     return await commonAPI(`${ServerURL}/applications/${id}`,"PUT",application)
 }
+// add history
+export const addHistoryAPI = async (history)=>{
+    return await commonAPI(`${ServerURL}/history/`,"POST",history)
+}
+// get history
+export const getHistoryAPI = async (id)=>{
+    return await commonAPI(`${ServerURL}/history${id}`,"GET",{})
+}
+// remove history
+export const removeHistoryAPI = async (id)=>{
+    return await commonAPI(`${ServerURL}/history${id}`,"DELETE",{})
+}

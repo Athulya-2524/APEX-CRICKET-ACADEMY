@@ -5,17 +5,31 @@ function Home() {
   return (
     <>
      <div>
-    <section style={{width:'100%',height:'100vh',backgroundImage:"url('https://dunescricketacademy.ae/wp-content/uploads/slider/cache/12acd9bd50df6b68d6a89203a3de8a35/DSC0061-scaled.jpg')",backgroundAttachment:'fixed',backgroundPosition:'top',backgroundSize:'cover'}} className="container-fluid row align-items-center">
+    <div id="carouselExample" class="carousel slide" className="container-fluid row align-items-center justify-content-center">
+        <div className=" carousel-item active">
+  <img src="https://www.cricinfo360.com/wp-content/uploads/2025/02/Top-Tier-Cricket-Academy-in-Gurgaon.jpeg" className="d-block w-100" alt="..." />
+</div>
+
+<div className="carousel-item">
+  <img src="https://mantorsports.com/wp-content/uploads/2022/06/DSC_0201-scaled.jpg" className="d-block w-100" alt="..." />
+</div>
+
+<div className="carousel-item">
+  <img src="https://sscricketacademy.co.in/wp-content/uploads/2023/06/gal-14.jpg" className="d-block w-100" alt="..." />
+</div>
+ 
+
       <div className="row">
+        
             <div className="col-md-4"></div>
-            <div className="col-md-4 shadow border py-5 rounded mt-5 text-center" style={{backgroundColor:"rgba(255,255,255,0.5)"}}>
-                <h3>APEX CRICKET ACADEMY-
+            <div className="col-md-4 shadow border py-5 rounded mt-5 text-center position-relative" style={{backgroundColor:"rgba(0, 0, 0, 0.5)"}}>
+                <h3 className='text-light'>APEX CRICKET ACADEMY-
                     <br/>“Where Champions Rise.”
                 </h3>
                 
             </div>
         </div>
-    </section>
+    </div>
     {/* about */}
     <section id='about' className='m-5'>
             <h1 className="text-center">ABOUT US</h1>
@@ -50,6 +64,8 @@ function Home() {
                 </div>
             </div>
         </section>
+        <section style={{height:'450px',width:'100%',backgroundImage:'url("https://dunescricketacademy.ae/wp-content/uploads/slider/cache/12acd9bd50df6b68d6a89203a3de8a35/DSC0061-scaled.jpg")',backgroundPosition:'top',backgroundAttachment:'fixed',backgroundSize:'cover'}}>
+    </section>
 
     </>
   )
