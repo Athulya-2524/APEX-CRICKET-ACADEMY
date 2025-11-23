@@ -50,7 +50,6 @@ function Application() {
              <div className='d-flex text-center justify-content-center mt-4 mb-4'>
               <Edit applicationDetails={application} setApplicationDetails={setApplication}/>
             <Button onClick={handleDownloadApplication} className=' ms-5 bg-primary text-white'>Download Your Application</Button>
-            <Link to={'/history'}> <Button className='ms-5 bg-primary text-white'>Your Application History</Button></Link>
             <Link to={'/'}><Button className='ms-5 bg-primary text-white'>Back to Home</Button></Link>
           </div>
           

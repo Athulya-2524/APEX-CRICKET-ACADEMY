@@ -6,7 +6,7 @@ function Home() {
     <>
      <div>
     <div id="carouselExample" class="carousel slide" className="container-fluid row align-items-center justify-content-center">
-        <div className=" carousel-item active">
+        <div className=" carousel-item active ">
   <img src="https://www.cricinfo360.com/wp-content/uploads/2025/02/Top-Tier-Cricket-Academy-in-Gurgaon.jpeg" className="d-block w-100" alt="..." />
 </div>
 

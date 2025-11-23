@@ -33,7 +33,7 @@ function Header() {
           <Button color="inherit">
             <a className='text-decoration-none text-white'  href="#contact">CONTACT</a>
           </Button>
-          <Link to={'/form'} className='text-light text-decoration-none' ><Button sx={{backgroundColor:'blue'}} color='white'>Login/Register</Button></Link>
+          <Link to={'/form'} className='text-light text-decoration-none' ><Button sx={{backgroundColor:'blue'}} color='white'>Register</Button></Link>
 
 
         </Toolbar>
